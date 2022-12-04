@@ -1,0 +1,122 @@
+html,body {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #95E9BA;
+}
+
+/*
+color primary = #95E9BA
+color secundary = #C4E995
+*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 280px;
+
+}
+
+header img {
+    width: 10vw;
+    margin: 10px;
+    justify-content: left;
+
+}
+
+.title {
+    
+    height: 7vw;    
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    font-size: 1vw;
+    color: black;
+    padding: 0.5vw;
+    padding-bottom: 13vw;
+    background-color: white;
+    border-radius: 2vw;
+
+}
+
+
+
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8vw;
+    margin: 4px 2px;
+    display: block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 25vw;
+}
+
+.button1 {
+    background-color: #C4E995;
+    color: black;
+    border: 2px solid #95E9BA;
+    border-radius: 20px;
+}
+
+.button1:hover {
+    background-color: #95E9BA;
+    color: white;
+    border: 2px solid #C4E995;
+
+}
+
+.button2 {
+    background-color: #C4E995;
+    color: black;
+    border: 2px solid #95E9BA;
+    border-radius: 20px;
+}
+
+.button2:hover {
+    background-color: #95E9BA;
+    color: white;
+    border: 2px solid #C4E995;
+
+}
+main{
+    background-color: #95E9BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+div.botao_header{
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 300px;
+} 
+
+#caixa {
+height: 100px;
+left: 98px;
+top: 470px;
+margin-top: 30px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+
+background: #FFFFFF;
+border-radius: 20px;
+justify-content: space-around;
+align-items: center;
+}
+
+#sabia{
+    margin-left: 10px;
+    margin-right: 10px;
+}

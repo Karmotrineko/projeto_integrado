@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pedircoleta.css">
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="img/logo.png" alt="logo">
+        <div id="caixa"> <h1 id="titulo">Pedir uma coleta</h1></div>
+    </header>
+
+    <main>
+        <div id="um">
+            <h2>Data da coleta:</h2>
+        <input type="date" placeholder="Data da coleta">
+            <h2>Horário da coleta:</h2>
+        <input type="time" placeholder="13:00">
+            <h2>Tipo de lixo:</h2>
+        <input type="text" placeholder="Plastico">
+            <h2>Quantidade:</h2>
+        <input type="text" placeholder="20kg">
+            <h2>Local da coleta:</h2>
+        <input type="text" placeholder="308 Negra Arroyo Lane NM">
+        <h2 id="voltar"><a href="logado.html">Voltar</a></h2>
+        <h2 id="aceitar" onclick="funcao1()"><a href="#">Aceitar</h2></a>
+
+        </div>
+        
+
+        <div id="dois">
+            <img src="img/mapa2.png" alt="mapa" id="mapa">
+        </div>
+    </main>
+
+    <script>
+        function funcao1()
+        {
+        alert("Coleta encaminhada!");
+        }
+    </script>
+    
+</body>
+</html>
