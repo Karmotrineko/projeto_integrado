@@ -1,0 +1,63 @@
+body{
+    background-color: #95E9BA;
+    display: inline;
+    justify-content: center;
+}
+
+nav{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+
+h1#pergunta{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32%;
+    margin-top: 7%;
+}
+
+section{
+    display: flex;
+}
+
+h1#fala{
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+p{
+    margin-left: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#mata{
+    margin-left: 23%;
+    margin-top: 30px;
+}
+
+div#botão{
+    background-color: white;
+    margin-left: 10%;
+    border-radius: 8px;
+    width: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div#speech{
+    background-color: white;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    img#mata{
+        max-width: 70%;
+    }
+
+}
